@@ -10,12 +10,12 @@ This package holds the code that produced every simulation result of the article
 |---|---|---|
 | `1_experiments/` | Notebooks 00 to 04 and the two export scripts that train the models and run Experiments 1 to 4. Its `README.md` documents each notebook, the data layout and the expected run times. | The authors, on Google Colab |
 | `2_results/AIA_SkinCon_results/` | Every csv, json and log file written by the notebooks of `1_experiments/`, unchanged. Its `README.md` describes every file and the part of the article that uses it. | `1_experiments/` |
-| `3_figures_and_tables/` | `AIA_SkinCon_figures_tables.ipynb`, which rebuilds Figures 1 to 7 and Tables 1 to 5 and recomputes 186 numbers of the text. Its `README.md` explains how to run it. `reference_figures/` holds the seven figure files of the article for the pixel comparison of the last cell. | `2_results/` |
+| `3_figures_and_tables/` | `AIA_SkinCon_figures_tables.ipynb`, which rebuilds Figures 1 to 7 and Tables 1 to 5 and recomputes 186 numbers in the text. Its `README.md` explains how to run it. `reference_figures/` holds the seven figure files of the article for the pixel comparison of the last cell. | `2_results/` |
 
 ## Quick verification from the results
 
 1. Install Python 3.11 with numpy, pandas, scipy, matplotlib, seaborn and jupyter (optionally PyMuPDF for the pixel comparison).
-2. Make the results visible next to the notebook, for instance with `ln -s ../2_results/AIA_SkinCon_results 3_figures_and_tables/AIA_SkinCon_results` (or copy the folder).
+2. Make the results visible next to the notebook, for instance, with `ln -s ../2_results/AIA_SkinCon_results 3_figures_and_tables/AIA_SkinCon_results` (or copy the folder).
 3. Add the folder `3_figures_and_tables/assets/` described below, then run all cells of `AIA_SkinCon_figures_tables.ipynb`.
 
 The notebook compares Tables 1 to 5 character for character with the article and stops at the first number of the text that differs from its recomputed value. In the shipped run, all 186 checks pass and all seven figures have identical pixels. The notebook is shipped executed, so its outputs can also be read without running it.
