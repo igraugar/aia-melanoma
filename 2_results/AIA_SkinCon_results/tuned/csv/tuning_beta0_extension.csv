@@ -1,0 +1,10 @@
+seed,beta0,beta,split_half_agreement,comparisons,table
+42,20.0,2.100053553926609,0.3109440493438913,4,"Split-half agreement above the grid (sensitivity only, frozen beta0 = 10), seed 42"
+42,50.0,5.250133884816523,0.2998742473935034,4,"Split-half agreement above the grid (sensitivity only, frozen beta0 = 10), seed 42"
+42,100.0,10.500267769633046,0.2882410214021298,4,"Split-half agreement above the grid (sensitivity only, frozen beta0 = 10), seed 42"
+64,20.0,2.0117678037610474,0.20376367565949396,4,"Split-half agreement above the grid (sensitivity only, frozen beta0 = 10), seed 64"
+64,50.0,5.029419509402619,0.1938846153033628,4,"Split-half agreement above the grid (sensitivity only, frozen beta0 = 10), seed 64"
+64,100.0,10.058839018805237,0.1868811540583946,4,"Split-half agreement above the grid (sensitivity only, frozen beta0 = 10), seed 64"
+128,20.0,2.737177358833285,0.18762424786303641,4,"Split-half agreement above the grid (sensitivity only, frozen beta0 = 10), seed 128"
+128,50.0,6.842943397083212,0.1811817183219562,4,"Split-half agreement above the grid (sensitivity only, frozen beta0 = 10), seed 128"
+128,100.0,13.685886794166423,0.17639006567108512,4,"Split-half agreement above the grid (sensitivity only, frozen beta0 = 10), seed 128"

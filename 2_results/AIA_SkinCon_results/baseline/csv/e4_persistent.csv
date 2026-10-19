@@ -1,0 +1,6 @@
+head,population,quantity,pair,configurations,certified_positive,certified_negative,mean_over_configurations,min_mean,max_mean,max_images_needed,persistent,table
+V12_deep,malignant,even_share_minus_half,,6,6,0,0.350277421886604,0.2708273625632957,0.41184655710352186,81.0,positive,4. Findings that persist in every seed under both removal rules
+V12_deep,non_malignant,even_share_minus_half,,6,6,0,0.3695313645347744,0.310110841110547,0.42248328552137826,69.0,positive,4. Findings that persist in every seed under both removal rules
+V12_mlp,malignant,even_share_minus_half,,6,6,0,0.39410060538386116,0.3501148536583231,0.4473138187371424,61.0,positive,4. Findings that persist in every seed under both removal rules
+V12_mlp,non_malignant,NA,,6,6,0,0.20371692238521702,0.07487518686215111,0.32733541174425507,310.0,positive,4. Findings that persist in every seed under both removal rules
+V12_mlp,non_malignant,even_share_minus_half,,6,6,0,0.4005928005476607,0.35923856481581884,0.45550064342795843,59.0,positive,4. Findings that persist in every seed under both removal rules

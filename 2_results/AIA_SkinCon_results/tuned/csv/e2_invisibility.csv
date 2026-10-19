@@ -1,0 +1,7 @@
+head,twin,soft_ranking_change,pair_share_change,sofi_optimum_change,shapley_change,banzhaf_value_change,banzhaf_interaction_relative_change_median,table
+V12_affine,even part erased,0.0,0.0,0.0,0.0,0.0,0.0,2c. Parity duality on real games (maximum over seeds and populations)
+V12_affine,even part reversed,0.0,0.0,0.0,0.0,0.0,0.0,2c. Parity duality on real games (maximum over seeds and populations)
+V12_deep,even part erased,1.8096635301390052e-14,2.0539125955565396e-14,1.4210854715202004e-14,1.942890293094024e-15,4.440892098500626e-16,1.0,2c. Parity duality on real games (maximum over seeds and populations)
+V12_deep,even part reversed,1.8096635301390052e-14,2.0539125955565396e-14,1.4210854715202004e-14,3.219646771412954e-15,4.440892098500626e-16,2.0,2c. Parity duality on real games (maximum over seeds and populations)
+V12_mlp,even part erased,1.3655743202889425e-14,2.1538326677728037e-14,2.1316282072803006e-14,2.0539125955565396e-15,4.440892098500626e-16,1.0,2c. Parity duality on real games (maximum over seeds and populations)
+V12_mlp,even part reversed,1.354472090042691e-14,2.19824158875781e-14,2.1316282072803006e-14,2.3314683517128287e-15,4.440892098500626e-16,2.0,2c. Parity duality on real games (maximum over seeds and populations)

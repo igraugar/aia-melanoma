@@ -1,0 +1,7 @@
+population,NA_tercile,NA,kl_soft_ranking_fit,pair_error_soft_ranking_fit,table
+malignant,high,0.3784198168812335,0.06349991006511146,0.0061778980382796445,"3. Soft-ranking summaries against non-additivity (terciles of NA, 12 concepts)"
+malignant,low,0.20421721601922696,0.06477960125159399,0.008591771547435914,"3. Soft-ranking summaries against non-additivity (terciles of NA, 12 concepts)"
+malignant,middle,0.28476606798654536,0.07164486425098815,0.0069067615677146366,"3. Soft-ranking summaries against non-additivity (terciles of NA, 12 concepts)"
+non_malignant,high,0.4079306424386369,0.08645914711901526,0.011504036263462192,"3. Soft-ranking summaries against non-additivity (terciles of NA, 12 concepts)"
+non_malignant,low,0.25197609705476914,0.05028660036758126,0.0053999186493116635,"3. Soft-ranking summaries against non-additivity (terciles of NA, 12 concepts)"
+non_malignant,middle,0.30904668290846016,0.05873313879526165,0.005676056646115757,"3. Soft-ranking summaries against non-additivity (terciles of NA, 12 concepts)"

@@ -1,0 +1,145 @@
+{
+ "seeds": [
+  42,
+  64,
+  128
+ ],
+ "selected_seed": 64,
+ "beta": {
+  "42": {
+   "beta0": 10.0,
+   "scale": {
+    "V12_affine": 5.37475961739308,
+    "V12_mlp": 9.523566655052523,
+    "V12_deep": 9.78092371603725
+   },
+   "scale_method": {
+    "V12_affine": "exact",
+    "V12_mlp": "exact",
+    "V12_deep": "exact"
+   }
+  },
+  "64": {
+   "beta0": 10.0,
+   "scale": {
+    "V12_affine": 6.709544171980514,
+    "V12_mlp": 9.94150515909914,
+    "V12_deep": 8.310101867084425,
+    "V16_mlp": 14.861971175782468,
+    "V20_mlp": 23.413028802115026
+   },
+   "scale_method": {
+    "V12_affine": "exact",
+    "V12_mlp": "exact",
+    "V12_deep": "exact",
+    "V16_mlp": "monte_carlo_10000",
+    "V20_mlp": "monte_carlo_10000"
+   }
+  },
+  "128": {
+   "beta0": 10.0,
+   "scale": {
+    "V12_affine": 4.413241132678134,
+    "V12_mlp": 7.306797250626445,
+    "V12_deep": 6.163070016613712
+   },
+   "scale_method": {
+    "V12_affine": "exact",
+    "V12_mlp": "exact",
+    "V12_deep": "exact"
+   }
+  }
+ },
+ "vocabularies": {
+  "V12": [
+   "erythema",
+   "plaque",
+   "papule",
+   "brown_hyperpigmentation",
+   "scale",
+   "crust",
+   "yellow",
+   "white_hypopigmentation",
+   "nodule",
+   "dome_shaped",
+   "erosion",
+   "ulcer"
+  ],
+  "V16": [
+   "erythema",
+   "plaque",
+   "papule",
+   "brown_hyperpigmentation",
+   "scale",
+   "crust",
+   "yellow",
+   "white_hypopigmentation",
+   "nodule",
+   "dome_shaped",
+   "erosion",
+   "ulcer",
+   "friable",
+   "exudate",
+   "patch",
+   "scar"
+  ],
+  "V20": [
+   "erythema",
+   "plaque",
+   "papule",
+   "brown_hyperpigmentation",
+   "scale",
+   "crust",
+   "yellow",
+   "white_hypopigmentation",
+   "nodule",
+   "dome_shaped",
+   "erosion",
+   "ulcer",
+   "friable",
+   "exudate",
+   "patch",
+   "scar",
+   "black",
+   "telangiectasia",
+   "pustule",
+   "purple"
+  ]
+ },
+ "concept_names": {
+  "erythema": "Erythema",
+  "plaque": "Plaque",
+  "papule": "Papule",
+  "brown_hyperpigmentation": "Brown(Hyperpigmentation)",
+  "scale": "Scale",
+  "crust": "Crust",
+  "yellow": "Yellow",
+  "white_hypopigmentation": "White(Hypopigmentation)",
+  "nodule": "Nodule",
+  "dome_shaped": "Dome-shaped",
+  "erosion": "Erosion",
+  "ulcer": "Ulcer",
+  "friable": "Friable",
+  "exudate": "Exudate",
+  "patch": "Patch",
+  "scar": "Scar",
+  "black": "Black",
+  "telangiectasia": "Telangiectasia",
+  "pustule": "Pustule",
+  "purple": "Purple",
+  "atrophy": "Atrophy",
+  "bulla": "Bulla",
+  "warty_papillomatous": "Warty/Papillomatous",
+  "exophytic_fungating": "Exophytic/Fungating",
+  "umbilicated": "Umbilicated"
+ },
+ "heads": [
+  "V12_affine",
+  "V12_mlp",
+  "V12_deep",
+  "V16_mlp",
+  "V20_mlp"
+ ],
+ "models_dir": "/content/drive/MyDrive/Notebooks/SkinCon/models",
+ "finished": "2026-10-01 06:08:38"
+}

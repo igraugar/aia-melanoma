@@ -1,0 +1,7 @@
+head,population,pairs,persistent,table
+V12_affine,malignant,66,0,4. Persistent pairwise interactions per head and population
+V12_affine,non_malignant,66,0,4. Persistent pairwise interactions per head and population
+V12_deep,malignant,66,0,4. Persistent pairwise interactions per head and population
+V12_deep,non_malignant,66,0,4. Persistent pairwise interactions per head and population
+V12_mlp,malignant,66,0,4. Persistent pairwise interactions per head and population
+V12_mlp,non_malignant,66,0,4. Persistent pairwise interactions per head and population

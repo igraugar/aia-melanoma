@@ -1,0 +1,206 @@
+{
+ "backbone": "efficientnet_b3",
+ "split_file": "/content/drive/MyDrive/Notebooks/SkinCon/splits/skincon_splits_fitz_ddi.csv",
+ "vocab_file": "/content/drive/MyDrive/Notebooks/SkinCon/splits/skincon_splits_fitz_ddi_vocabularies.json",
+ "concepts": [
+  "erythema",
+  "plaque",
+  "papule",
+  "brown_hyperpigmentation",
+  "scale",
+  "crust",
+  "yellow",
+  "white_hypopigmentation",
+  "nodule",
+  "dome_shaped",
+  "erosion",
+  "ulcer",
+  "friable",
+  "exudate",
+  "patch",
+  "scar",
+  "black",
+  "telangiectasia",
+  "pustule",
+  "purple"
+ ],
+ "vocabularies": {
+  "V12": [
+   "erythema",
+   "plaque",
+   "papule",
+   "brown_hyperpigmentation",
+   "scale",
+   "crust",
+   "yellow",
+   "white_hypopigmentation",
+   "nodule",
+   "dome_shaped",
+   "erosion",
+   "ulcer"
+  ],
+  "V16": [
+   "erythema",
+   "plaque",
+   "papule",
+   "brown_hyperpigmentation",
+   "scale",
+   "crust",
+   "yellow",
+   "white_hypopigmentation",
+   "nodule",
+   "dome_shaped",
+   "erosion",
+   "ulcer",
+   "friable",
+   "exudate",
+   "patch",
+   "scar"
+  ],
+  "V20": [
+   "erythema",
+   "plaque",
+   "papule",
+   "brown_hyperpigmentation",
+   "scale",
+   "crust",
+   "yellow",
+   "white_hypopigmentation",
+   "nodule",
+   "dome_shaped",
+   "erosion",
+   "ulcer",
+   "friable",
+   "exudate",
+   "patch",
+   "scar",
+   "black",
+   "telangiectasia",
+   "pustule",
+   "purple"
+  ]
+ },
+ "concept_names": {
+  "erythema": "Erythema",
+  "plaque": "Plaque",
+  "papule": "Papule",
+  "brown_hyperpigmentation": "Brown(Hyperpigmentation)",
+  "scale": "Scale",
+  "crust": "Crust",
+  "yellow": "Yellow",
+  "white_hypopigmentation": "White(Hypopigmentation)",
+  "nodule": "Nodule",
+  "dome_shaped": "Dome-shaped",
+  "erosion": "Erosion",
+  "ulcer": "Ulcer",
+  "friable": "Friable",
+  "exudate": "Exudate",
+  "patch": "Patch",
+  "scar": "Scar",
+  "black": "Black",
+  "telangiectasia": "Telangiectasia",
+  "pustule": "Pustule",
+  "purple": "Purple",
+  "atrophy": "Atrophy",
+  "bulla": "Bulla",
+  "warty_papillomatous": "Warty/Papillomatous",
+  "exophytic_fungating": "Exophytic/Fungating",
+  "umbilicated": "Umbilicated"
+ },
+ "head_specs": [
+  [
+   "V12",
+   "affine"
+  ],
+  [
+   "V12",
+   "mlp"
+  ],
+  [
+   "V12",
+   "deep"
+  ],
+  [
+   "V16",
+   "mlp"
+  ],
+  [
+   "V20",
+   "mlp"
+  ]
+ ],
+ "training": {
+  "BACKBONE_LR_MULT": 0.3,
+  "BATCH_SIZE": 8,
+  "CONCEPT_WEIGHTING": false,
+  "EPOCHS": 30,
+  "HARD_STATES": "validation_threshold",
+  "HEAD_BATCH": 32,
+  "HEAD_DROPOUT": 0.5,
+  "HEAD_EPOCHS": 300,
+  "HEAD_HIDDEN": 128,
+  "HEAD_LR": 0.003,
+  "HEAD_PATIENCE": 40,
+  "HEAD_SPECS": [
+   [
+    "V12",
+    "affine"
+   ],
+   [
+    "V12",
+    "mlp"
+   ],
+   [
+    "V12",
+    "deep"
+   ],
+   [
+    "V16",
+    "mlp"
+   ],
+   [
+    "V20",
+    "mlp"
+   ]
+  ],
+  "HEAD_WEIGHT_DECAY": 0.0001,
+  "IMG_SIZE": 300,
+  "LABEL_SMOOTHING": 0.0,
+  "LEARNING_RATE": 0.0003,
+  "LR_FLOOR": 0.02,
+  "NUM_WORKERS": 2,
+  "PRETRAINED": true,
+  "STOCHASTIC_DEPTH": 0.4,
+  "STRONG_AUGMENT": true,
+  "TRAIN_SOURCES": [
+   "fitzpatrick17k",
+   "ddi"
+  ],
+  "TUNABLE_LAYERS": 100,
+  "WARMUP_EPOCHS": 1,
+  "WEIGHT_DECAY": 0.05
+ },
+ "seeds": {
+  "42": {
+   "concept_checkpoint": "/content/drive/MyDrive/Notebooks/SkinCon/models/concepts_efficientnet_b3_seed42.pth",
+   "states": "/content/drive/MyDrive/Notebooks/SkinCon/models/states_efficientnet_b3_seed42.npz",
+   "heads": "/content/drive/MyDrive/Notebooks/SkinCon/models/heads_efficientnet_b3_seed42.pth",
+   "predictions": "/content/drive/MyDrive/Notebooks/SkinCon/models/predictions_efficientnet_b3_seed42.csv",
+   "seconds": 1968.612050294876
+  },
+  "64": {
+   "concept_checkpoint": "/content/drive/MyDrive/Notebooks/SkinCon/models/concepts_efficientnet_b3_seed64.pth",
+   "states": "/content/drive/MyDrive/Notebooks/SkinCon/models/states_efficientnet_b3_seed64.npz",
+   "heads": "/content/drive/MyDrive/Notebooks/SkinCon/models/heads_efficientnet_b3_seed64.pth",
+   "predictions": "/content/drive/MyDrive/Notebooks/SkinCon/models/predictions_efficientnet_b3_seed64.csv",
+   "seconds": 1872.506823539734
+  },
+  "128": {
+   "concept_checkpoint": "/content/drive/MyDrive/Notebooks/SkinCon/models/concepts_efficientnet_b3_seed128.pth",
+   "states": "/content/drive/MyDrive/Notebooks/SkinCon/models/states_efficientnet_b3_seed128.npz",
+   "heads": "/content/drive/MyDrive/Notebooks/SkinCon/models/heads_efficientnet_b3_seed128.pth",
+   "predictions": "/content/drive/MyDrive/Notebooks/SkinCon/models/predictions_efficientnet_b3_seed128.csv",
+   "seconds": 1908.3969058990479
+  }
+ }
+}

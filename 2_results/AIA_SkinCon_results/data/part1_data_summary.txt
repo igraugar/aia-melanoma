@@ -1,0 +1,48 @@
+Printed output of the data cell (Part 1) of the experiment notebook, from the run that reused the frozen split file
+used by every model and experiment of the paper. Only the progress lines of the image copy are removed.
+
+Reusing the frozen split file /content/drive/MyDrive/Notebooks/SkinCon/splits/skincon_splits_fitz_ddi.csv
+
+Data assembly
+  fitzpatrick17k annotated                      3690
+  fitzpatrick17k after exclusion flag           3230
+  fitzpatrick17k after quality control          3227
+  ddi annotated                                 656
+  ddi after exclusion flag                      636
+  images found on disk                          3863
+  near-duplicate pairs                          18
+  duplicate groups with more than one image     18
+  images in such groups                         36
+  groups with conflicting targets               0
+
+Images per split, source and target (1 = malignant)
+malignant                0    1
+split source                   
+test  ddi               89   37
+      fitzpatrick17k   553   95
+train ddi              285   97
+      fitzpatrick17k  1655  279
+valid ddi               95   33
+      fitzpatrick17k   540  105
+
+Concept vocabularies (nested, ordered by training frequency)
+  Erythema                     train= 1419   prevalence=0.615   in V12, V16, V20
+  Plaque                       train= 1284   prevalence=0.553   in V12, V16, V20
+  Papule                       train=  955   prevalence=0.409   in V12, V16, V20
+  Brown(Hyperpigmentation)     train=  667   prevalence=0.290   in V12, V16, V20
+  Scale                        train=  472   prevalence=0.204   in V12, V16, V20
+  Crust                        train=  339   prevalence=0.142   in V12, V16, V20
+  Yellow                       train=  169   prevalence=0.069   in V12, V16, V20
+  White(Hypopigmentation)      train=  167   prevalence=0.072   in V12, V16, V20
+  Nodule                       train=  147   prevalence=0.061   in V12, V16, V20
+  Dome-shaped                  train=  137   prevalence=0.055   in V12, V16, V20
+  Erosion                      train=  136   prevalence=0.055   in V12, V16, V20
+  Ulcer                        train=  110   prevalence=0.043   in V12, V16, V20
+  Friable                      train=  108   prevalence=0.043   in V16, V20
+  Exudate                      train=  101   prevalence=0.041   in V16, V20
+  Patch                        train=   90   prevalence=0.040   in V16, V20
+  Scar                         train=   75   prevalence=0.033   in V16, V20
+  Black                        train=   69   prevalence=0.031   in V20
+  Telangiectasia               train=   64   prevalence=0.027   in V20
+  Pustule                      train=   54   prevalence=0.027   in V20
+  Purple                       train=   49   prevalence=0.023   in V20

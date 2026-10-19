@@ -1,0 +1,7 @@
+population,draws,sup_error_over_s,banzhaf_interaction_error_over_s,hoeffding_sup_bound_over_s,table
+malignant,1000,0.006073728134074834,0.001375610052409321,0.09705978064480787,1c. Monte Carlo expected-hard game against the exact contraction (medians over images)
+malignant,10000,0.002275474664223843,0.00042027708424955627,0.030692997603391916,1c. Monte Carlo expected-hard game against the exact contraction (medians over images)
+malignant,100000,0.0007681852986673346,0.00015742828046719855,0.009705978064480786,1c. Monte Carlo expected-hard game against the exact contraction (medians over images)
+non_malignant,1000,0.0070563860384876866,0.0015462424157894703,0.09705978064480787,1c. Monte Carlo expected-hard game against the exact contraction (medians over images)
+non_malignant,10000,0.0024451630405069756,0.0004905854471515764,0.030692997603391916,1c. Monte Carlo expected-hard game against the exact contraction (medians over images)
+non_malignant,100000,0.0006960657411830711,0.00016131915953162868,0.009705978064480786,1c. Monte Carlo expected-hard game against the exact contraction (medians over images)
